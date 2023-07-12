@@ -1,3 +1,68 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+}
+
+header:first-child h2 {
+  margin-left: 30%;
+}
+header div {
+  margin-top: 19.92px;
+  margin-right: 25%;
+}
+header div a {
+  border: 1px solid black;
+  padding: 15px 8px 15px 8px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+button {
+  margin: 0 auto;
+  padding-left: 210.7px;
+  padding-right: 210.7px;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  border-top: none;
+}
+
+span {
+  font-size: 1.5em;
+}
+.pages {
+  width: 500px;
+  margin: 0 auto;
+}
+.input {
+  margin: 0 auto;
+  padding-left: 165.2px;
+  padding-right: 165.2px;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  text-align: start;
+}
+hr {
+  width: 0;
+}
+.logout {
+  position: absolute;
+  top: 50%;
 }
